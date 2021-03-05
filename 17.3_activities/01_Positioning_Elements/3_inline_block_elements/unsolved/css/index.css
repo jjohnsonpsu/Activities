@@ -4,7 +4,17 @@ nav {
 }
 
 /* target the class of inline-block below */
-
+.inline-lock {
+  display: inline-block;
+  padding:15px;
+  
+}
 /* target the class of .left below */
+.left {
+  height: 500px;
+  float: left;
+  background-color: lightblue;
+  width:30%;
 
+}
 /* target the class of .right below */
