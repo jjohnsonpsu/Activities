@@ -52,6 +52,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
 .perfectlyCentered {
   align-items: center;
   justify-content: space-around;
+  align-items: ;
 /*
 - Under this comment type out the css property of justify-content: center;
 - Then type out the css property align-items: center;
