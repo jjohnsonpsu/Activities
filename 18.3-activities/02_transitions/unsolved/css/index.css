@@ -19,11 +19,17 @@
   width: 150px;
   text-align: center;
   height: 50px;
+  transition: 0.3s;
+
   /* Add the css property transition here! */
 
 }
 /* active state */
 .hoverMe:hover {
-  /* Add your hover state css here. */
-
+background-color: cadetblue;
+transform: scale(1.1);
+transform: rotate(360deg);
+button {width:6em}
+button:hover span {display:none}
+button:hover:before {content:"Reply!"}
 }
